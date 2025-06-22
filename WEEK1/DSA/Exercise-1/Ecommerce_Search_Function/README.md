@@ -1,18 +1,28 @@
-## Getting Started
+#  E-commerce Product Search Optimization
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project demonstrates a basic **search functionality** for an e-commerce platform using two algorithms:
+- **Linear Search**
+- **Binary Search**
 
-## Folder Structure
+It highlights how different search strategies affect performance and when to use which.
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+##  Project Overview
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+The system allows you to search for a product by its **Product ID** from a list of products. Each product has:
+- `productId`
+- `productName`
+- `category`
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
+## Time Complexity Analysis
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+| Algorithm      | Best Case | Average Case | Worst Case |
+|----------------|-----------|---------------|-------------|
+| Linear Search  | O(1)      | O(n)          | O(n)        |
+| Binary Search  | O(1)      | O(log n)      | O(log n)    |
+
+### When to Use:
+- **Linear Search**: When the dataset is small or unsorted.
+- **Binary Search**: When the dataset is large **and sorted**.
