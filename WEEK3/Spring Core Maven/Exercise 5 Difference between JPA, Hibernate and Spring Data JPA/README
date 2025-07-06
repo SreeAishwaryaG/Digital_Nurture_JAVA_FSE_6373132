@@ -1,0 +1,26 @@
+# ORM Learn: Hibernate vs Spring Data JPA
+
+This project demonstrates how to perform basic CRUD operations using **Hibernate** and **Spring Data JPA** in a Spring Boot application.  
+It is built for learning the differences between the two persistence approaches using the same `Employee` entity and MySQL database.
+
+---
+
+## 📌 Project Description
+
+This project shows:
+- How to set up a Spring Boot project with Hibernate and Spring Data JPA
+- Manual Hibernate code for saving an employee
+- Simplified Spring Data JPA approach using `JpaRepository`
+- Clear folder structure to separate both implementations
+
+## Difference between Spring Data JPA and Hibernate
+
+| Aspect                   | Hibernate (Manual)                                                                 | Spring Data JPA (Auto)                                              |
+|--------------------------|------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| Code Amount              | More boilerplate: open session, transaction, save, exception handling             | Minimal code: just call `save()` via autowired repo                 |
+| API Used                 | `SessionFactory`, `Session`, `Transaction`                                        | `JpaRepository` from Spring                                         |
+| Return Type              | `save()` returns ID (deprecated), `persist()` returns void                        | `save()` returns entity                                             |
+| Transaction Mgmt         | Manual using `Transaction`                                                        | Auto-managed using `@Transactional`                                 |
+| Ease of Use              | More control but verbose                                                          | Very concise, plug-and-play                                         |
+| Flexibility              | High (suitable for custom tuning)  
+

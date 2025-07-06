@@ -1,0 +1,7 @@
+### 🔹 Exercise 1 – Configuring a Basic Spring Application
+
+In this exercise, a basic Spring application was created using **XML-based configuration**.  
+Beans for `BookService` and `BookRepository` were defined in `applicationContext.xml`, and **setter-based Dependency Injection** was used to wire them.  
+The Spring container was loaded using `ClassPathXmlApplicationContext` to demonstrate how Spring manages bean creation and dependency wiring via XML configuration.
+
+---

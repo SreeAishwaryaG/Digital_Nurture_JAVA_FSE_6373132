@@ -1,0 +1,8 @@
+### 🔹 Exercise 2 – Implementing Dependency Injection
+
+This exercise focused on **annotation-based Dependency Injection**.  
+Using `@Component`, the classes were marked as Spring-managed beans, and `@Autowired` was used to inject the `BookRepository` into `BookService` automatically.  
+The application used `AnnotationConfigApplicationContext` and `@ComponentScan` to load the beans without any XML file.  
+This shows a modern, cleaner approach to Spring’s Inversion of Control (IoC) and Dependency Management.
+
+---

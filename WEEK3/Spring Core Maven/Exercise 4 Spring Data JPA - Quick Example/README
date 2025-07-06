@@ -1,0 +1,13 @@
+# orm-learn
+
+Demo project for Spring Data JPA and Hibernate
+
+This project demonstrates the fundamentals of Object-Relational Mapping (ORM) using Spring Boot, Spring Data JPA, and Hibernate.
+
+The application connects to a MySQL database and performs basic CRUD operations using a layered architecture:
+
+- **Entity Layer**: Maps the `Country` table using JPA annotations.
+- **Repository Layer**: Uses `JpaRepository` to interact with the database without writing SQL queries.
+- **Service Layer**: Contains business logic and acts as a bridge between the controller and repository.
+- **Main Application**: Bootstraps the application and fetches all country records using the service layer.
+

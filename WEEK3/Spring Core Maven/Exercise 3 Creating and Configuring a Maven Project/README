@@ -1,0 +1,8 @@
+### 🔹 Exercise 3 – Creating and Configuring a Maven Project
+
+In this exercise, the project was configured using Maven.  
+Dependencies for `spring-context`, `spring-aop`, and `spring-webmvc` were added to the `pom.xml` file.  
+The `maven-compiler-plugin` was also configured to use Java 1.8.  
+This setup ensures that the project is ready for developing Spring applications with proper build and dependency management.
+
+---
